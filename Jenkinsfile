@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'ubuntu-agent' }
+    agent { label 'linux' }
 
     stages {
         stage('Tests and coverage') {
